@@ -1,0 +1,163 @@
+/* Produtos */
+
+#sec_produto {
+    margin: 40px 0;
+}
+
+.div_produtos {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+/* Area Motul */
+
+#motul {
+    background-color: #241e4e;   
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+
+#motul_info {
+    text-align: end;
+    margin-bottom: 25px;
+}
+
+#motul hr {
+    margin: 15px auto;
+    width: 95%;
+    border: solid thin white;
+}
+
+#motul h3 {
+    color: rgb(228, 228, 228);
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: start;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+#carrosel_motul {
+    margin-right: 75px;
+}
+
+ /* Area produtos */
+
+.produto {
+    width: 15%;
+    background-color: #738290;
+    padding: 10px 2%;
+    color: white;
+    transition: 150ms;
+}
+
+.produto img {
+    width: 100%;
+}
+
+.produto:hover {
+    transform: scale(1.105);
+}
+
+.produto span {
+    font-size: 1.25em;
+}
+
+.produto p {
+    margin: 15px 0;
+    text-align: justify;
+    display: none;
+}
+
+.produto_preco {
+    margin-top: 1em;
+    border-top: solid thin white;
+    display: block;
+}
+
+.botao_descricao_produtos, .botao_produtos_expandir {
+    cursor: pointer;
+    display: block;
+    border: none;
+    padding: 0;
+    color: white;
+    background-color: #241e4e;
+    padding: 0.5em;
+    font-size: 1.15em;
+    margin: 10px 0px 0px 104px;
+}
+
+.botao_descricao_produtos:hover {
+    background-color: #49417d;
+}
+
+/* Area Pneus */
+
+#pneus {
+    padding: 20px;
+    background-color: #241e4e;
+}
+
+#pneus h3 {
+    color: white;
+    text-align: end;
+    padding-right: 50px;
+    display: block;
+    border-bottom: white solid thin;
+    width: 96%;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+
+#pneus img {
+    width: 40%;
+}
+
+#pneu_grandao {
+    width: 35%;
+}
+
+#pneus .div_produtos img, #pneus .produtos_expandidos img {
+    width: 100%;
+}
+
+#pneus .div_produtos {
+    justify-content: space-around;
+}
+
+#pneus_content {
+    display: flex;
+    padding: 10px;
+    background-color: #416165;
+}
+
+#pneus .botao_descricao_produtos {
+    margin: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+/* Seção expandida */
+
+.botao_produtos_expandir {
+    margin: 10px 0;
+}
+
+.produtos_expandir {
+    background-color: #416165;
+    padding: 10px;
+}
+
+.produtos_expandidos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos_expandidos .produto {
+    width: 10%;
+    padding: 10px 3%;
+}

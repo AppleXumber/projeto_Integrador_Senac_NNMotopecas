@@ -1,0 +1,19 @@
+section#sec_servicos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.servicos {
+    width: 30%;
+    font-weight: bold;
+    border: solid thin black;
+    display: block;
+    padding: 5px;
+    background-color: white;
+}
+
+.servicos .icone {
+    content: url('../images/positivo.png');
+    width: 10px;
+}

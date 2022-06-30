@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NN Moto Peças</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/css_produtos.css">
+    <link rel="stylesheet" href="assets/css/css_serviços.css">
+    <link rel="stylesheet" href="assets/css/carrosel.css">
+    <script src="assets/js/jQuery.js"></script>
+    <script>
+        $(function () {
+            $('.descricao_produto').fadeOut('fast'),
+                $('.botao_descricao_produtos').bind('click', function () {
+                    $(this).prev().prev().toggle('fast')
+                })
+        })
+
+        $(function() {
+            $('.produtos_expandidos').fadeOut('fast')
+            $('.botao_produtos_expandir').bind('click', function() {
+                $('.produtos_expandidos').toggle('fast')
+            })
+        })
+    </script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+
+
+
+        <div>
+            <img src="assets/images/logo.jpg" alt="Logo">
+        </div>
+
+        <div id="sociais">
+
+            <div>
+                <nav>
+                    <ul>
+                        <li><img src="assets/images/icones/logo_facebook.png"><a
+                                href="https://facebook.com">Facebook</a></li>
+                        <li><img src="assets/images/icones/logo_insta.svg"><a href="https://instagram.com">Instagram</a>
+                        </li>
+                        <li><img src="assets/images/icones/logo_zap.png"><a href="#">(42)98418-1331</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <p>42 3522-8672</p>
+                    </li>
+
+                    <li><a href="mailto:nnmotopecasoficina@gmail.com">nnmotopecasoficina@gmail.com</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <main>
+        <section id="localização">
+            <!-- Localização -->
+
+            <h1>Localização</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316.338028525933!2d-51.069945102095765!3d-26.230611318530233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e661dbf8417c55%3A0x65ae9207eca4e02e!2sAv.%20J%C3%BAlia%20Amazonas%2C%20238%20-%20Sagrada%20Fam%C3%ADlia%2C%20Uni%C3%A3o%20da%20Vit%C3%B3ria%20-%20PR%2C%2084603-021!5e0!3m2!1spt-BR!2sbr!4v1655821754630!5m2!1spt-BR!2sbr"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span>Avenida Júlia Amazonas, 238 - Sagrada Família, União da Vitória</span>
+        </section>
+
+        <section id="sec_produto"><!-- Produtos -->
+            
+            <div id="motul">
+                <h3>Lubrificantes</h3>
+                <hr>
+                <div id="motul_info">
+                    <div class="content" id="carrosel_motul">
+                        <div class="slides">
+                            <input type="radio" name="slide" id="slide1">
+                            <input type="radio" name="slide" id="slide2">
+                            <input type="radio" name="slide" id="slide3">
+                            <input type="radio" name="slide" id="slide4">
+                            <input type="radio" name="slide" id="slide5">
+
+                            <div class="slide s1">
+                                <img src="assets/images/carrosel/motul3.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/carrosel/gulf2.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/carrosel/motul2.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="assets/images/carrosel/produtos_mobil.webp" alt="">
+                            </div>
+
+
+                        </div>
+                        <div class="navigation">
+                            <label class="bar" for="slide1"></label>
+                            <label class="bar" for="slide2"></label>
+                            <label class="bar" for="slide3"></label>
+                            <label class="bar" for="slide4"></label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="div_produtos">
+
+                    <div class="produto">
+                        <div class="info_produto">
+                            <img src="assets/images/placeholder-produto.png" alt="produto">
+                            <span>Nome Produto</span>
+                        </div>
+                        <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Praesentium ipsam nobis ratione
+                            reprehenderit natus fugiat.</p>
+                        <span class="produto_preco">R$00,00</span>
+                        <input type="button" class="botao_descricao_produtos" value="Expandir">
+                    </div>
+
+                    <div class="produto">
+                        <div class="info_produto">
+                            <img src="assets/images/placeholder-produto.png" alt="produto">
+                            <span>Nome Produto</span>
+                        </div>
+                        <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Praesentium ipsam nobis ratione
+                            reprehenderit natus fugiat.</p>
+                        <span class="produto_preco">R$00,00</span>
+                        <input type="button" class="botao_descricao_produtos" value="Expandir">
+                    </div>
+
+                    <div class="produto">
+                        <div class="info_produto">
+                            <img src="assets/images/placeholder-produto.png" alt="produto">
+                            <span>Nome Produto</span>
+                        </div>
+                        <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Praesentium ipsam nobis ratione
+                            reprehenderit natus fugiat.</p>
+                        <span class="produto_preco">R$00,00</span>
+                        <input type="button" class="botao_descricao_produtos" value="Expandir">
+                    </div>
+
+                    <div class="produto">
+                        <div class="info_produto">
+                            <img src="assets/images/placeholder-produto.png" alt="produto">
+                            <span>Nome Produto</span>
+                        </div>
+                        <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Praesentium ipsam nobis ratione
+                            reprehenderit natus fugiat.</p>
+                        <span class="produto_preco">R$00,00</span>
+                        <input type="button" class="botao_descricao_produtos" value="Expandir">
+                    </div>
+
+                    <div class="produto">
+                        <div class="info_produto">
+                            <img src="assets/images/placeholder-produto.png" alt="produto">
+                            <span>Nome Produto</span>
+                        </div>
+                        <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Praesentium ipsam nobis ratione
+                            reprehenderit natus fugiat.</p>
+                        <span class="produto_preco">R$00,00</span>
+                        <input type="button" class="botao_descricao_produtos" value="Expandir">
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="pneus">
+                <h3>Peças</h3>
+
+                <div id="pneus_content">
+                    <img id="pneu_grandao" src="assets/images/pecas_moto_1.jpg">
+                    <div class="div_produtos">
+                        <div class="produto">
+                            <div class="info_produto">
+                                <img src="assets/images/placeholder-produto.png" alt="produto">
+                                <span>Pneu</span>
+                            </div>
+                            <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+                                mollitia deleniti, culpa.
+                            </p>
+                            <span class="produto_preco">R$00,00</span>
+                            <input type="button" class="botao_descricao_produtos" value="Expandir">
+                        </div>
+                        <div class="produto">
+                            <div class="info_produto">
+                                <img src="assets/images/placeholder-produto.png" alt="produto">
+                                <span>Pneu</span>
+                            </div>
+                            <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+                                mollitia deleniti, culpa.
+                            </p>
+                            <span class="produto_preco">R$00,00</span>
+                            <input type="button" class="botao_descricao_produtos" value="Expandir">
+                        </div>
+                        <div class="produto">
+                            <div class="info_produto">
+                                <img src="assets/images/placeholder-produto.png" alt="produto">
+                                <span>Pneu</span>
+                            </div>
+                            <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+                                mollitia deleniti, culpa.
+                            </p>
+                            <span class="produto_preco">R$00,00</span>
+                            <input type="button" class="botao_descricao_produtos" value="Expandir">
+                        </div>
+                        <div class="produto">
+                            <div class="info_produto">
+                                <img src="assets/images/placeholder-produto.png" alt="produto">
+                                <span>Pneu</span>
+                            </div>
+                            <p class="descricao_produto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+                                mollitia deleniti, culpa.
+                            </p>
+                            <span class="produto_preco">R$00,00</span>
+                            <input type="button" class="botao_descricao_produtos" value="Expandir">
+                        </div>
+                    </div>
+                </div>
+                <div class="produtos_expandir">
+                    <span id="span_botao">
+                        <div class="produtos_expandidos">
+                            <div class="produto">
+                                <div class="info_produto">
+                                    <img src="assets/images/placeholder-produto.png" alt="produto">
+                                    <span>Produto</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                    <span class="produto_preco">R$00,00</span>
+                                    <input type="button" class="botao_descricao_produtos" value="Expandir">
+                            </div>
+                            <div class="produto">
+                                <div class="info_produto">
+                                    <img src="assets/images/placeholder-produto.png" alt="produto">
+                                    <span>Produto</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <span class="produto_preco">R$00,00</span>
+                                <input type="button" class="botao_descricao_produtos" value="Expandir">
+                            </div>
+                            <div class="produto">
+                                <div class="info_produto">
+                                    <img src="assets/images/placeholder-produto.png" alt="produto">
+                                    <span>Produto</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <span class="produto_preco">R$00,00</span>
+                                <input type="button" class="botao_descricao_produtos" value="Expandir">
+                            </div>
+                            <div class="produto">
+                                <div class="info_produto">
+                                    <img src="assets/images/placeholder-produto.png" alt="produto">
+                                    <span>Produto</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <span class="produto_preco">R$00,00</span>
+                                <input type="button" class="botao_descricao_produtos" value="Expandir">
+                            </div>
+                            <div class="produto">
+                                <div class="info_produto">
+                                    <img src="assets/images/placeholder-produto.png" alt="produto">
+                                    <span>Produto</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <span class="produto_preco">R$00,00</span>
+                                <input type="button" class="botao_descricao_produtos" value="Expandir">
+                            </div>
+                            <div class="produto">
+                                <div class="info_produto">
+                                    <img src="assets/images/placeholder-produto.png" alt="produto">
+                                    <span>Produto</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <span class="produto_preco">R$00,00</span>
+                                <input type="button" class="botao_descricao_produtos" value="Expandir">
+                            </div>
+                        </div>
+                        <input type="button" class="botao_produtos_expandir" value="Ver mais">
+                    </span>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section id="servicos">
+
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

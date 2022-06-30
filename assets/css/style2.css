@@ -1,0 +1,70 @@
+body {
+    background-color: #a2ca31;
+}
+
+main {
+    width: 70%;
+    margin: 25px auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border: #031503 solid thin;
+}
+
+header {
+    background-color: #142f14;
+    background: url(../images/background-6.jpg) center;
+    background-size: cover;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header #sociais {
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+}
+
+li {
+    color: white;
+    line-height: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div nav {
+    background-color: #494c3f38;
+}
+
+div nav ul li {
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px #142f14;
+    margin: 20px 0;
+}
+
+div nav ul li img {
+    width: 30px;
+}
+
+section#localização span {
+    color: green;
+    font-size: 1.35em;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
