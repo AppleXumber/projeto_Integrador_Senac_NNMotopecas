@@ -1,0 +1,84 @@
+#servicos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#servicos .container section {
+    width: 60%;
+}
+
+#servicos .container section div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#servicos .container section div div {
+    width: 20%;
+}
+
+#servicos section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#servicos #servicos_motos {
+    float: right;
+    margin: 0px 20px;
+    background-color: darkseagreen;
+}
+
+#servicos_motos {
+    margin: 0px 20px;
+    background-color: darkseagreen;
+    text-align: center;
+    order: 1;
+}
+
+#servicos_motos_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}
+
+#servicos_motos p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.moto_cilindrada {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    margin: 5px 20px;
+    background-color: darkcyan;
+}
+
+.moto_cilindrada span {
+    font-size: 1.2em;
+    color: white;
+}
+
+/* Revisao */
+
+#revisao {
+    text-align: center;
+    float: left;
+    background-color: darkseagreen;
+}
+
+.revisao_tipos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: darkcyan;
+    margin: 5px 10px;
+    color: white;
+    font-size: 1.15em;
+}

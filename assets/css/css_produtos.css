@@ -135,6 +135,10 @@
     background-color: #416165;
 }
 
+#pneus_content .produto {
+    height: 350px;
+}
+
 #pneus .botao_descricao_produtos {
     margin: 0;
     width: 100%;
