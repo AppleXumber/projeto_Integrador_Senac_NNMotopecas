@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NN Moto Peças</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/css_produtos.css">
     <link rel="stylesheet" href="assets/css/css_serviços.css">
     <link rel="stylesheet" href="assets/css/carrosel.css">
+    <link rel="stylesheet" href="assets/css/css_serviços.css">
+    <link rel="stylesheet" href="assets/css/css_assistencia.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
     <script src="assets/js/jQuery.js"></script>
     <script>
         $(function () {
@@ -20,9 +23,9 @@
                 })
         })
 
-        $(function() {
+        $(function () {
             $('.produtos_expandidos').fadeOut('fast')
-            $('.botao_produtos_expandir').bind('click', function() {
+            $('.botao_produtos_expandir').bind('click', function () {
                 $('.produtos_expandidos').toggle('fast')
             })
         })
@@ -72,19 +75,10 @@
     </header>
 
     <main>
-        <section id="localização">
-            <!-- Localização -->
 
-            <h1>Localização</h1>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316.338028525933!2d-51.069945102095765!3d-26.230611318530233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e661dbf8417c55%3A0x65ae9207eca4e02e!2sAv.%20J%C3%BAlia%20Amazonas%2C%20238%20-%20Sagrada%20Fam%C3%ADlia%2C%20Uni%C3%A3o%20da%20Vit%C3%B3ria%20-%20PR%2C%2084603-021!5e0!3m2!1spt-BR!2sbr!4v1655821754630!5m2!1spt-BR!2sbr"
-                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <span>Avenida Júlia Amazonas, 238 - Sagrada Família, União da Vitória</span>
-        </section>
+        <section id="sec_produto">
+            <!-- Produtos -->
 
-        <section id="sec_produto"><!-- Produtos -->
-            
             <div id="motul">
                 <h3>Lubrificantes</h3>
                 <hr>
@@ -95,13 +89,9 @@
                             <input type="radio" name="slide" id="slide2">
                             <input type="radio" name="slide" id="slide3">
                             <input type="radio" name="slide" id="slide4">
-                            <input type="radio" name="slide" id="slide5">
 
                             <div class="slide s1">
                                 <img src="assets/images/carrosel/motul3.jpg" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="assets/images/carrosel/gulf2.jpg" alt="">
                             </div>
                             <div class="slide">
                                 <img src="assets/images/carrosel/motul2.jpg" alt="">
@@ -116,7 +106,6 @@
                             <label class="bar" for="slide1"></label>
                             <label class="bar" for="slide2"></label>
                             <label class="bar" for="slide3"></label>
-                            <label class="bar" for="slide4"></label>
                         </div>
                     </div>
 
@@ -246,16 +235,8 @@
                                     <img src="assets/images/placeholder-produto.png" alt="produto">
                                     <span>Produto</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
-                                    <span class="produto_preco">R$00,00</span>
-                                    <input type="button" class="botao_descricao_produtos" value="Expandir">
-                            </div>
-                            <div class="produto">
-                                <div class="info_produto">
-                                    <img src="assets/images/placeholder-produto.png" alt="produto">
-                                    <span>Produto</span>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod,
+                                    est sapiente nostrum rerum repellat.</p>
                                 <span class="produto_preco">R$00,00</span>
                                 <input type="button" class="botao_descricao_produtos" value="Expandir">
                             </div>
@@ -264,7 +245,8 @@
                                     <img src="assets/images/placeholder-produto.png" alt="produto">
                                     <span>Produto</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod,
+                                    est sapiente nostrum rerum repellat.</p>
                                 <span class="produto_preco">R$00,00</span>
                                 <input type="button" class="botao_descricao_produtos" value="Expandir">
                             </div>
@@ -273,7 +255,8 @@
                                     <img src="assets/images/placeholder-produto.png" alt="produto">
                                     <span>Produto</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod,
+                                    est sapiente nostrum rerum repellat.</p>
                                 <span class="produto_preco">R$00,00</span>
                                 <input type="button" class="botao_descricao_produtos" value="Expandir">
                             </div>
@@ -282,7 +265,8 @@
                                     <img src="assets/images/placeholder-produto.png" alt="produto">
                                     <span>Produto</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod,
+                                    est sapiente nostrum rerum repellat.</p>
                                 <span class="produto_preco">R$00,00</span>
                                 <input type="button" class="botao_descricao_produtos" value="Expandir">
                             </div>
@@ -291,7 +275,18 @@
                                     <img src="assets/images/placeholder-produto.png" alt="produto">
                                     <span>Produto</span>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod, est sapiente nostrum rerum repellat.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod,
+                                    est sapiente nostrum rerum repellat.</p>
+                                <span class="produto_preco">R$00,00</span>
+                                <input type="button" class="botao_descricao_produtos" value="Expandir">
+                            </div>
+                            <div class="produto">
+                                <div class="info_produto">
+                                    <img src="assets/images/placeholder-produto.png" alt="produto">
+                                    <span>Produto</span>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nisi architecto quod,
+                                    est sapiente nostrum rerum repellat.</p>
                                 <span class="produto_preco">R$00,00</span>
                                 <input type="button" class="botao_descricao_produtos" value="Expandir">
                             </div>
@@ -306,13 +301,110 @@
         </section>
 
         <section id="servicos">
+            <h3>Assistencia</h3>
+
+            <div class="container">
+                <aside id="servicos_motos">
+                    <p>Trabalhamos com<br>motos de:</p>
+                    <div id="servicos_motos_container">
+                        <div class="moto_cilindrada">
+                            <span>Alta Cilindrada</span>
+                            <img src="assets/images/asistencia/moto_alta_cilindrada.jpg" alt="Moto de alta cilindrada">
+                        </div>
+                        <div class="moto_cilindrada">
+                            <span>Baixa cilindrada</span>
+                            <img src="assets/images/asistencia/moto_baixa_cilindrada.webp"
+                                style="background-color: white;" alt="Moto de baixa cilindrada">
+                        </div>
+                    </div>
+                </aside>
+
+                <div id="revisao">
+                    <p>Revisões:</p>
+                    <div class="revisao_tipos">
+                        <span>Básica</span>
+                        <img src="assets/images/asistencia/revisao_de_moto_1.png" alt="Revisão Básica">
+                    </div>
+
+                    <div class="revisao_tipos">
+                        <span>Geral</span>
+                        <img src="assets/images/asistencia/revisao_de_moto_2.png" alt="Revisão Geral">
+                    </div>
+
+                    <div class="revisao_tipos">
+                        <span>Premium</span>
+                        <img src="assets/images/asistencia/revisao_de_moto_3.png" alt="Revisão Premium">
+                    </div>
+
+                </div>
+                <section>
+                    <div>
+                        <div>
+                            <p>Suspensão de motos</p>
+                        </div>
+                        <div>
+                            <img src="assets/images/asistencia/suspensao_moto.jpg" alt="Suspensão de motos">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Reforma e pintura</p>
+                        </div>
+                        <div>
+                            <img src="assets/images/asistencia/reforma_moto.jpg" alt="Reforma e pintura">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <p>Revisão e manutenção de sistema de injeção eletronica</p>
+                        </div>
+                        <div>
+                            <img src="assets/images/asistencia/injecao_moto.jpg">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
 
         </section>
 
     </main>
 
     <footer>
+        <div class="fc">
+            <ul>
+                <li class="fc2"><a href="comentarios.html">
+                        <h1>Fale conosco</h1>
+                    </a> <br></li>
+                <li class="fc2"><a href="">
+                        <h1>Quem somos</h1>
+                    </a> <br></li>
+                <li class="fc2">
+                    <h1></h1> <br>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316.338028525933!2d-51.069945102095765!3d-26.230611318530233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e661dbf8417c55%3A0x65ae9207eca4e02e!2sAv.%20J%C3%BAlia%20Amazonas%2C%20238%20-%20Sagrada%20Fam%C3%ADlia%2C%20Uni%C3%A3o%20da%20Vit%C3%B3ria%20-%20PR%2C%2084603-021!5e0!3m2!1spt-BR!2sbr!4v1655821754630!5m2!1spt-BR!2sbr"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+
+
+        <div class="icons">
+            <a href="#" class="icon icon--instagram">
+                <i class="ri-instagram-line"><img src="assets/images/footer/INSTAGRAM-256.webp" style="width: 30px;"></i>
+            </a>
+            <a href="#" class="icon icon--face">
+                <i class="ri-instagram-line"><img src="assets/images/footer/face.webp" style="width: 30px;"></i>
+            </a>
+            <a href="#" class="icon icon--zap">
+                <i class="ri-instagram-line"><img src="assets/images/footer/zap.webp" style="width: 30px;"></i>
+            </a>
+        </div>
+        <marquee behavior="" direction="right" scrollamount="50" loop="infinite" scrolldelay="180"><img src="assets/images/footer/movimento.webp" alt=""></marquee>
+        <!-- <img id="moto" src="assets/images/footer/movimento.webp" alt=""> -->
     </footer>
 
 </body>
