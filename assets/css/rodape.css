@@ -1,5 +1,4 @@
 footer{
-    height: 626px;
     background-color: black;
 }
 
@@ -12,14 +11,16 @@ marquee img {
 
 .icons{
     display: flex;
-    column-gap: 25px;
-    margin-top: 287px;
-    margin-left: 616px;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.icons img {
+    margin-bottom: -5px;
 }
 
 .icon{
-    margin-top: 24px;
-    margin-left: 100px;
     width: 60px;
     height: 60px;
     display: inline-flex;
@@ -60,18 +61,23 @@ marquee img {
 }
 
 iframe{
-    float: right;
-    width: 1700px;
+    width: 90%;
     height: 200px;
-    margin-right: 60px;
-    margin-top: 30px;
+    /*     margin-right: 60px;
+        margin-top: 30px; */
     padding: 20px;
+    margin: 0 73px;
 
 }
 .fc{
-    float: left;
-    margin-left: 400px;
-    margin-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.fc ul {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .fc2{
@@ -79,12 +85,10 @@ iframe{
     width: 200px;
     list-style: none;    
     display: inline-block;
-    margin-left: 200px;
 }
 
 hr{
-    width: 1700px;
-    margin-top: 400px;
+    width: 90%;
 }
 
 a{

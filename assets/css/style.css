@@ -28,10 +28,11 @@ header {
     position: fixed;
     width: 97%;
     margin-top: -25px;
+    z-index: 1;
 }
 
 main {
-    padding-top: 175px;
+    padding-top: 100px;
 }
 
 header #sociais {
@@ -65,13 +66,10 @@ div nav ul li img {
     width: 30px;
 }
 
-section#localização span {
-    color: green;
-    font-size: 1.35em;
-}
-
 h3 {
-    font-size: 1.25em;
+    font-size: 2em;
     font-weight: bold;
+    color: white;
+    margin: 10px 0px;
+    text-decoration: underline;
 }
-

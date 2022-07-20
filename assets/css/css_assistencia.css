@@ -8,15 +8,15 @@
     width: 60%;
 }
 
-#servicos .container section div {
+#servicos_gerais .servicos_gerais_div_bloco {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
 }
 
-#servicos .container section div div {
-    width: 20%;
+#servicos .container .divs_internas {
+    width: 22.5%;
 }
 
 #servicos section {
@@ -28,12 +28,10 @@
 
 #servicos #servicos_motos {
     float: right;
-    margin: 0px 20px;
     background-color: darkseagreen;
 }
 
 #servicos_motos {
-    margin: 0px 20px;
     background-color: darkseagreen;
     text-align: center;
     order: 1;
@@ -81,4 +79,34 @@
     margin: 5px 10px;
     color: white;
     font-size: 1.15em;
+}
+
+#servicos_gerais p {
+    color: white;
+    font-size: 1.25em;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#servicos_gerais .div_paragrafo {
+    width: 40%;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.servicos_gerais_div_bloco {
+    background-color: rgba(0, 139, 139, 0.638);
+}
+
+.servicos_gerais_div_bloco .divs_internas {
+    margin: 15px 0;
+}
+
+.servicos_gerais_div_bloco .div_imagem img {
+    width: 100%;
+}
+
+#servicos_gerais #segundo_filho {
+    flex-direction: row;
 }
