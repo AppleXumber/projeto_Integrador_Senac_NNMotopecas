@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="assets/css/css_serviços.css">
     <link rel="stylesheet" href="assets/css/css_assistencia.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/botao_topo.css">
+    <link rel="stylesheet" href="assets/css/header.css">
     <script src="assets/js/jQuery.js"></script>
+    <script src="https://kit.fontawesome.com/6dda5f6271.js" crossorigin="anonymous"></script>
     <script>
         $(function () {
             $('.descricao_produto').fadeOut('fast'),
@@ -36,44 +39,30 @@
 </head>
 
 <body>
+    <span id="topo"></span>
     <header>
+        <div class="container">
+            <div class="logo"><a href="#topo"><img src="assets/images/logo.jpg" alt="Logo NW MOTOS"></a></div>
 
-
-
-        <div>
-            <img src="assets/images/logo.jpg" alt="Logo">
-        </div>
-
-        <div id="sociais">
-
-            <div>
+            <div class="menu">
                 <nav>
-                    <ul>
-                        <li><img src="assets/images/icones/logo_facebook.png"><a
-                                href="https://facebook.com">Facebook</a></li>
-                        <li><img src="assets/images/icones/logo_insta.svg"><a href="https://instagram.com">Instagram</a>
-                        </li>
-                        <li><img src="assets/images/icones/logo_zap.png"><a href="#">(42)98418-1331</a></li>
-
-                    </ul>
+                    <a href="#topo">Home</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Contato</a>
                 </nav>
             </div>
-
-            <div>
-                <ul>
-                    <li>
-                        <p>42 3522-8672</p>
-                    </li>
-
-                    <li><a href="mailto:nnmotopecasoficina@gmail.com">nnmotopecasoficina@gmail.com</a></li>
-                </ul>
+            <div class="sociais">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
-
-
 
         </div>
     </header>
 
+
+
+    <button><a href="#topo">▲</a></button>
     <main>
 
         <section id="sec_produto">
@@ -337,28 +326,31 @@
                     </div>
 
                 </div>
-                <section>
-                    <div>
-                        <div>
+
+                <section id="servicos_gerais">
+                    <div class="servicos_gerais_div_bloco">
+                        <div class="divs_internas div_paragrafo">
                             <p>Suspensão de motos</p>
                         </div>
-                        <div>
+                        <div class="div_imagem divs_internas">
                             <img src="assets/images/asistencia/suspensao_moto.jpg" alt="Suspensão de motos">
                         </div>
                     </div>
-                    <div>
-                        <div>
+
+                    <div id="segundo_filho" class="servicos_gerais_div_bloco">
+                        <div class="divs_internas div_paragrafo">
                             <p>Reforma e pintura</p>
                         </div>
-                        <div>
+                        <div class="div_imagem divs_internas">
                             <img src="assets/images/asistencia/reforma_moto.jpg" alt="Reforma e pintura">
                         </div>
                     </div>
-                    <div>
-                        <div>
+
+                    <div class="servicos_gerais_div_bloco">
+                        <div class="divs_internas div_paragrafo">
                             <p>Revisão e manutenção de sistema de injeção eletronica</p>
                         </div>
-                        <div>
+                        <div class="div_imagem divs_internas">
                             <img src="assets/images/asistencia/injecao_moto.jpg">
                         </div>
                     </div>
@@ -376,12 +368,14 @@
                 <li class="fc2"><a href="comentarios.html">
                         <h1>Fale conosco</h1>
                     </a> <br></li>
-                <li class="fc2"><a href="">
-                        <h1>Quem somos</h1>
+                <li class="fc2"><a href="agendamento.html">
+                        <h1>Agendamento</h1>
                     </a> <br></li>
-                <li class="fc2">
-                    <h1></h1> <br>
                 </li>
+                <li class="fc2"><a href="">
+                    <h1>Quem somos</h1>
+                </a> <br></li>
+            </li>
             </ul>
         </div>
         <hr>
@@ -394,7 +388,8 @@
 
         <div class="icons">
             <a href="#" class="icon icon--instagram">
-                <i class="ri-instagram-line"><img src="assets/images/footer/INSTAGRAM-256.webp" style="width: 30px;"></i>
+                <i class="ri-instagram-line"><img src="assets/images/footer/INSTAGRAM-256.webp"
+                        style="width: 30px;"></i>
             </a>
             <a href="#" class="icon icon--face">
                 <i class="ri-instagram-line"><img src="assets/images/footer/face.webp" style="width: 30px;"></i>
@@ -403,8 +398,9 @@
                 <i class="ri-instagram-line"><img src="assets/images/footer/zap.webp" style="width: 30px;"></i>
             </a>
         </div>
-        <marquee behavior="" direction="right" scrollamount="50" loop="infinite" scrolldelay="180"><img src="assets/images/footer/movimento.webp" alt=""></marquee>
-        <!-- <img id="moto" src="assets/images/footer/movimento.webp" alt=""> -->
+        <marquee behavior="" direction="right" scrollamount="50" loop="infinite" scrolldelay="180"><img
+                src="assets/images/footer/movimento.webp" alt=""></marquee>
+
     </footer>
 
 </body>
