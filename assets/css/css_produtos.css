@@ -52,6 +52,8 @@
     padding: 10px 2%;
     color: white;
     transition: 150ms;
+    display: flex;
+    flex-direction: column;
 }
 
 .produto img {
@@ -87,7 +89,12 @@
     background-color: #241e4e;
     padding: 0.5em;
     font-size: 1.15em;
-    margin: 10px 0px 0px 104px;
+}
+
+.botao_descricao_produtos {
+    width: 80%;
+    align-self: flex-end;
+    margin: 10px 0;
 }
 
 .botao_descricao_produtos:hover {
@@ -143,6 +150,8 @@
     margin: 0;
     width: 100%;
     padding: 10px 0;
+    margin-bottom: 30%;
+    font-size: 0.9rem;
 }
 
 /* Seção expandida */
