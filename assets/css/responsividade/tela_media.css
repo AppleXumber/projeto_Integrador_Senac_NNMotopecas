@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    header .container {
+        width: 100%;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .botao_descricao_produtos {
+        width: 100%;
+    }
+
+    #pneus_content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #pneus_content .div_produtos {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        width: 35%;
+        margin-bottom: 15%;
+    }
+
+    #pneus_content #pneu_grandao {
+        width: 60%;
+        height: 100%;
+    }
+
+    #pneus_content .produto {
+        height: 55%;
+    }
+
+    .produto {
+        width: 35%;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    #servicos_motos, #revisao {
+        width: 49%;
+    }
+
+    .revisao_tipos {
+        align-items: center;
+    }
+
+    .container section#servicos_gerais {
+        width: 100%;
+        order: 2;
+        margin: 15px 0;
+    }
+
+}
