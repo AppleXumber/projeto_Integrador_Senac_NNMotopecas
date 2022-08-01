@@ -1,27 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>agendamento</title>
+    <title>Agendamento</title>
     <link rel="stylesheet" href="assets/css/agendamento.css">
+    <link rel="stylesheet" href="assets/css/responsividade/tela_minuscula.css">
+    <script>
+        function validar() {
+            var nome = document.getElementById("nome");
+            var tel = document.getElementById("tel");
+            var date = document.getElementById("date");
+            var time = document.getElementById("time");
+            if (nome.value != "" && tel.value != "" && date.value != "" && time.value != "") {
+                alert("agendamento feito com sucesso");
+                return true
+            } else {
+                alert("preencha todas as areas");
+                return false
+                nome.focus();
+            }
+        }
+    </script>
 </head>
 
 <body>
     <div class="caixa">
-        <h1 style="text-align: center;">Agendamento</h1>
-        <div class="inputs">
-            <p><label for="tel">Telefone</label><input type="tel" placeholder="Telefone"> </p>
-            <p><label for="name">Nome</label> <input type="name" placeholder="Nome"></p>
-            <p> <label for="date">Data</label><input type="date" id="date"></p>
-            <p> <label for="time">Horario</label><input type="time" id="time"></p>
-
-
-            <button><a href="index.html">Enviar</a></button>
+        <form id="formulario" action="index.html" method="POST" name="formulario" onsubmit="return validar()">
+            <legend>
+                Agendamento
+            </legend>
+            <div class="inputs">
+                <p><label for="name">Nome</label> <input type="name" placeholder="Nome" id="nome"></p>
+                <p><label for="tel">Telefone</label><input type="tel" placeholder="Telefone" id="tel"> </p>
+                <p> <label for="date">Data</label><input type="date" id="date"></p>
+                <p> <label for="time">Horario</label><input type="time" id="time"></p>
+            </div>
+            <input type="submit" class="button">
         </div>
-    </div>
+        <a href="index.html" style="margin-left: 2%;">Voltar</a>
+    </form>
+
+
 </body>
 
 </html>
