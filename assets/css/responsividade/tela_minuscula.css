@@ -1,0 +1,99 @@
+@media screen and (max-width: 500px) {
+    /* Header */
+
+    header {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    header .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo, .menu, .sociais {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .sociais {
+        margin: 15px 0;
+        justify-content: space-evenly;
+    }
+
+    /* Main - produtos */
+
+    #sec_produto {
+        margin-top: 35%;
+    }
+
+    #carrosel_motul {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .div_produtos {
+        flex-wrap: wrap;
+    }
+
+    #motul .produto {
+        width: 40%;
+    }
+
+    #motul .produto:last-child {
+        display: block;
+    }
+
+    /* Pneus */
+
+    #pneus h3 {
+        padding-right: 13px;
+    }
+
+    #pneus_content .div_produtos .produto {
+        width: 42.5%;
+    }
+
+    .produtos_expandidos {
+        flex-wrap: wrap;
+        margin-top: 15%;
+    }
+
+    .produtos_expandidos .produto {
+        width: 42.5%;
+    }
+
+    /* Assistencia */
+
+    .moto_cilindrada {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #servicos img {
+        width: 160px;
+    }
+
+    #servicos .container .divs_internas {
+        width: 45%;
+    }
+
+    /* Footer */
+
+    .icons {
+        width: 85%;
+    }
+    
+    .fc ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Agendamento */
+
+    form {
+        padding: 0;
+    }
+
+}

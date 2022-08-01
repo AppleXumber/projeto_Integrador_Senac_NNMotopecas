@@ -17,3 +17,117 @@ section#sec_servicos {
     content: url('../images/positivo.png');
     width: 10px;
 }
+
+#servicos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#servicos .container section {
+    width: 60%;
+}
+
+#servicos_gerais .servicos_gerais_div_bloco {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#servicos .container .divs_internas {
+    width: 22.5%;
+}
+
+#servicos section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#servicos #servicos_motos {
+    float: right;
+    background-color: darkseagreen;
+}
+
+#servicos_motos {
+    background-color: darkseagreen;
+    text-align: center;
+    order: 1;
+}
+
+#servicos_motos_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}
+
+#servicos_motos p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.moto_cilindrada {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    margin: 5px 20px;
+    background-color: darkcyan;
+    align-items: center;
+}
+
+.moto_cilindrada span {
+    font-size: 1.2em;
+    color: white;
+}
+
+/* Revisao */
+
+#revisao {
+    text-align: center;
+    float: left;
+    background-color: darkseagreen;
+}
+
+.revisao_tipos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: darkcyan;
+    margin: 5px 10px;
+    color: white;
+    font-size: 1.15em;
+}
+
+#servicos_gerais p {
+    color: white;
+    font-size: 1.25em;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#servicos_gerais .div_paragrafo {
+    width: 40%;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.servicos_gerais_div_bloco {
+    background-color: rgba(0, 139, 139, 0.638);
+}
+
+.servicos_gerais_div_bloco .divs_internas {
+    margin: 15px 0;
+}
+
+.servicos_gerais_div_bloco .div_imagem img {
+    width: 100%;
+}
+
+#servicos_gerais #segundo_filho {
+    flex-direction: row;
+}

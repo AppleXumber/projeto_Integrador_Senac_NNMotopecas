@@ -1,0 +1,32 @@
+@media screen and (max-width:767px) {
+    #pneus_content {
+        flex-direction: column;
+    }
+
+    div#pneus_div_imagem {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #pneus_div_imagem img.pneu_grandao {
+        width: 100%;
+    }
+    
+    img#pneu_grandao2 {
+        display: none;
+    }
+
+    #pneus_content div.div_produtos {
+        width: 100%;
+    }
+
+    #pneus_content .div_produtos .produto {
+        width: 20%;
+    }
+
+    .fc {
+        width: 100%;
+        margin: 0 0;
+        padding: 30px 0;
+    }
+}

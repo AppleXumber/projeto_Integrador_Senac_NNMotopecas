@@ -15,6 +15,7 @@
     background-color: #241e4e;   
     padding: 15px 0;
     margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 #motul_info {
@@ -22,13 +23,13 @@
     margin-bottom: 25px;
 }
 
-#motul hr {
+#motul hr, #pneus hr {
     margin: 15px auto;
     width: 95%;
     border: solid thin white;
 }
 
-#motul h3 {
+#motul h3, #pneus h3 {
     color: rgb(228, 228, 228);
     font-size: 2em;
     font-weight: bold;
@@ -54,10 +55,16 @@
     transition: 150ms;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+}
+
+#motul .produto:last-child {
+    display: none;
 }
 
 .produto img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .produto:hover {
@@ -92,7 +99,7 @@
 }
 
 .botao_descricao_produtos {
-    width: 80%;
+    width: 50%;
     align-self: flex-end;
     margin: 10px 0;
 }
@@ -106,9 +113,10 @@
 #pneus {
     padding: 20px;
     background-color: #241e4e;
+    border-radius: 5px;
 }
 
-#pneus h3 {
+/* #pneus h3 {
     color: white;
     text-align: end;
     padding-right: 50px;
@@ -118,14 +126,19 @@
     margin-bottom: 20px;
     padding-bottom: 10px;
     font-size: 2em;
-}
+} */
 
 #pneus img {
     width: 40%;
 }
 
-#pneu_grandao {
-    width: 35%;
+#pneus_div_imagem .pneu_grandao {
+    width: 100%;
+    height: 100%;
+}
+
+#pneu_grandao2 {
+    display: none;
 }
 
 #pneus .div_produtos img, #pneus .produtos_expandidos img {
@@ -143,7 +156,7 @@
 }
 
 #pneus_content .produto {
-    height: 350px;
+    height: 400px;
 }
 
 #pneus .botao_descricao_produtos {
